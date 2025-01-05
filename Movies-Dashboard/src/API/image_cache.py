@@ -11,13 +11,13 @@ def store_images():
         response = requests.get(movie['primaryImage'])
         responses.append(response.content)
 
-    with open("src/API/images.pkl", "wb") as file:
+    with open("Movies-Dashboard/src/API/images.pkl", "wb") as file:
         pickle.dump(responses, file)
 
 def load_images():
 
     try:
-        with open("src/API/images.pkl", "rb") as file:
+        with open("Movies-Dashboard/src/API/images.pkl", "rb") as file:
             responses = pickle.load(file)
 
         return responses

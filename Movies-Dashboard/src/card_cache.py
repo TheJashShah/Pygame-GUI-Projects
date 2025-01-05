@@ -8,13 +8,13 @@ def save_list():
 
     card_list = return_movie_card_list(X, Y, PAD)
 
-    with open("src/card.pkl", "wb") as file:
+    with open("Movies-Dashboard/src/card.pkl", "wb") as file:
         pickle.dump(card_list, file, protocol=pickle.HIGHEST_PROTOCOL)
 
 def get_list():
 
     try:
-        with open("src/card.pkl", "rb") as file:
+        with open("Movies-Dashboard/src/card.pkl", "rb") as file:
             card_list = pickle.load(file)
 
         return card_list

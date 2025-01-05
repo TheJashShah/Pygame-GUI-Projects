@@ -4,14 +4,14 @@ from .api import get_top_movies_all_time
 
 def save_movies_to_file(LIST):
 
-    with open("src/API/cache.json", "w") as file:
+    with open("Movies-Dashboard/src/API/cache.json", "w") as file:
         json.dump(LIST, file)
 
 
 def load_movies_from_file():
 
     try:
-        with open("src/API/cache.json", "r") as file:
+        with open("Movies-Dashboard/src/API/cache.json", "r") as file:
             return json.load(file)
         
     except FileNotFoundError:
