@@ -1,6 +1,10 @@
 # Pygame-GUI-Projects
  GUI Projects in Pygame
 
+# CSV-To-JSON
+A Simple Tool that converts csv files to json files, and also provides a preview of the json as scrollable text.
+Implemented Drag and Drop for the csv file selection.
+
 # Currency-Converter
 Currency converter in pygame, implementing a top-down menu and up/down scrolling. Used py_currency_converter for conversions.(Only 18-20 Currencies are used).
 
