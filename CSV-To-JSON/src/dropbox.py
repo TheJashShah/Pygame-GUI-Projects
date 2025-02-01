@@ -11,7 +11,7 @@ class DropBox:
         self.font = pygame.font.SysFont("monospace", 20)
         self.text = "Drag and Drop your CSV Files!"
 
-        self.icon = pygame.image.load("assets/icon.png")
+        self.icon = pygame.image.load("CSV-To-JSON/assets/icon.png")
         self.img_width, self.img_height = self.icon.get_width()//8, self.icon.get_height()//8
         self.icon = pygame.transform.scale(self.icon, (self.img_width, self.img_height))
 
