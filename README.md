@@ -19,3 +19,8 @@ A Simple GUI-based Sudoku player and solver. Uses Recursive Backtracking to Solv
 
 # To-Do-List
 A to-do-list in pygame, with priority-wise sorting of tasks, and makeshift database that stores the task, priority, and whether the task is completed or not using .txt files, so that if opened after updating the list, the tasks are visible in the same order and state.
+
+# CLI
+Non-Pygame python command-line-interfaces projects.
+ Includes:
+ 1. Code-To-Text-File -> writes all code of a directory to a text file, helpful when using LLMs for code  review.
